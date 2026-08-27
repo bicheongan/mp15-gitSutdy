@@ -7,7 +7,7 @@
 
     public void Attack()
     {
-        Console.WriteLine("공격");
+        Console.WriteLine($"이름{Name} 공격력:{Damage}");
     }
 }
 
