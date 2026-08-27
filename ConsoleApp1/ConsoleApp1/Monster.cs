@@ -1,7 +1,13 @@
 ﻿public class Monster
 {
-    public int Health {  get; set; }
 
-    int a;
+    public string Name;
+    public int Health;
+    public int Damage;
+
+    public void Attack()
+    {
+        Console.WriteLine("공격");
+    }
 }
 
